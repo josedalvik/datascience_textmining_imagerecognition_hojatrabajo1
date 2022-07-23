@@ -1,0 +1,10 @@
+cd {RUTA}
+prompt hoja1#
+
+conda create -n hoja1 python
+conda activate hoja1
+conda update -n base -c defaults conda
+conda install opencv
+conda install jupyter
+conda install matplotlib
+jupyter notebook 
